@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "polygon-edge-keygen",
+  "version": "1.0.0",
+  "description": "Generate node keys for Polygon Edge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ezzahhh",
+  "license": "ISC",
+  "dependencies": {
+    "@chainsafe/bls": "^7.1.1",
+    "@chainsafe/blst": "^0.2.6",
+    "@libp2p/peer-id": "^1.1.16",
+    "ethers": "^5.7.2",
+    "libp2p-crypto": "^0.21.2"
+  }
+}
